@@ -38,49 +38,7 @@
         <div class="grid">
             <div class="card">
                 
-    <style>
-        /* GRID DE PRODUCTOS */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-
-        /* TARJETA */
-        .card {
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            text-align: center;
-            background: white;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-
-        /* IMÁGENES CUADRADAS */
-        .card img {
-            width: 100%;
-            aspect-ratio: 1 / 1;   /* 👈 esto hace que la imagen sea CUADRADA */
-            object-fit: cover;     /* la imagen llena el espacio sin deformarse */
-            border-radius: 10px;
-        }
-
-        /* BOTÓN */
-        .card button {
-            margin-top: 10px;
-            padding: 10px 15px;
-            background: #0078ff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .card button:hover {
-            background: #005fcc;
-        }
-    </style>
-</head>
+  
 
 <body>
 
