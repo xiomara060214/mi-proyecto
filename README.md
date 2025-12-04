@@ -59,8 +59,8 @@
         /* IMÁGENES CUADRADAS */
         .card img {
             width: 100%;
-            aspect-ratio: 1 / 1;   /* 👈 esto hace que la imagen sea CUADRADA */
-            object-fit: cover;     /* la imagen llena el espacio sin deformarse */
+            aspect-ratio: 1 / 1;   
+            object-fit: cover;     
             border-radius: 10px;
         }
 
